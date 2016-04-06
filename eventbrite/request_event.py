@@ -18,7 +18,7 @@ def get_event(token):
 
         ## Expand seems to work with comma separation,
         ## if in alphabetical order
-        "expand": "ticket_classes,venue"
+        "expand": "category,ticket_classes,venue"
     }
 
     response = requests.get(
