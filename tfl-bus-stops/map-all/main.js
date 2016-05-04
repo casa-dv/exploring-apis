@@ -20,10 +20,6 @@ L.tileLayer(tile_url, {
     maxZoom: 17
 }).addTo(map);
 
-d3.json('./tfl-bus-stops.json', function(response){
-  L.geoJson(response).addTo(map);
-});
-
 function point_style(feature) {
   return {
     fillColor: 'transparent',

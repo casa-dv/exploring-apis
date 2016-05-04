@@ -10,4 +10,9 @@
     <script src="./d3.v3.min.js"></script>
     <script src="./leaflet.js"></script>
     <script src="./main.js"></script>
+    <script>
+    d3.json('./tfl-bus-stops-min.json', function(response){
+      L.geoJson(response).addTo(map);
+    });
+    </script>
 </body>
