@@ -7,59 +7,130 @@
     
     <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js?ver=1.10.2'></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true"> </script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="YOUR_KEY"&libraries=places"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLtPceftpSX6ce7Q_7OvudzfBF9sC22-c&libraries=places"></script>
     <script type='text/javascript' src='http://arshaw.com/xdate/downloads/0.8/xdate.js'></script>
     <script type='text/javascript' src='./js/mapStyle.js'></script>
-</head>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
     
-<body>
-<div id='wrapper'>
-     <div id="map-canvas"></div>
-     <div id="titleHeader">
-     	 <h1>Places around this bus stop</h1>
-     </div>
-</div>
-    
-<script type="text/javascript">
-    
-    nameArray = [];
+    <script type="text/javascript">
     function initialize() {
+        var busStop = {lat:51.511732, lon:-0.123270};
         var location = new google.maps.LatLng(51.511732, -0.123270);
         var map = new google.maps.Map(document.getElementById("map-canvas"), {
             center: location,
             zoom: 18,
             minZoom: 18,
             maxZoom: 18,
-            styles: greyMap
+            styles: greyMap,
+            streetViewControl:false,
+            zoomControl:false,
+            mapTypeControl:false
             });
         var request = {
-            location: location,
-            radius: '500',
-            types: ['cafe']
-        };
-        var service = new google.maps.places.PlacesService(map);
-        service.nearbySearch(request, function(results, status) {
-            if (status === google.maps.places.PlacesServiceStatus.OK) {
-                    for (var i = 0; i < results.length; i++) {
-                        var place = results[i];
-                        var name = place.name;
-                        nameArray.push(name);
-                        var marker = new google.maps.Marker({
-                            map: map,
-                            position: place.geometry.location
-                        });
-                    };
+                location: location,
+                radius: '500',
+                types: ['bus_station']
             };
+        var service = new google.maps.places.PlacesService(map);
+        service.nearbySearch(request, function(results, status){
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i < results.length; i++) {
+                    var place = results[i];
+                    var marker = new google.maps.Marker({
+                         map: map,
+                        position: place.geometry.location,
+                        icon: "./img/icon2.png"
+                     });
+                 };
+             };
         });
     };
-    
-    function control() {
-        console.log(nameArray);
+        
+    function cafes() {
+        var location = new google.maps.LatLng(51.511732, -0.123270);
+        var map = new google.maps.Map(document.getElementById("map-canvas"), {
+            center: location,
+            zoom: 18,
+            minZoom: 18,
+            maxZoom: 18,
+            styles: greyMap,
+            streetViewControl:false,
+            zoomControl:false,
+            mapTypeControl:false
+            });
+        var request = {
+                location: location,
+                radius: '500',
+                types: ['cafe']
+            };
+        var service = new google.maps.places.PlacesService(map);
+        service.nearbySearch(request, function(results, status){
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i < results.length; i++) {
+                    var place = results[i];
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: place.geometry.location,
+                        icon: "./img/icon.png"
+                    });
+                    google.maps.event.addListener(marker, 'click', function(){
+                        document.getElementById("information").innerHTML = place.name;                     
+                    });
+                 };
+            };
+        });
     }
+        
+    function restaurants() {
+        var location = new google.maps.LatLng(51.511732, -0.123270);
+        var map = new google.maps.Map(document.getElementById("map-canvas"), {
+            center: location,
+            zoom: 18,
+            minZoom: 18,
+            maxZoom: 18,
+            styles: greyMap,
+            streetViewControl:false,
+            zoomControl:false,
+            mapTypeControl:false
+            });
+        var request = {
+                location: location,
+                radius: '500',
+                types: ['restaurant']
+            };
+        var service = new google.maps.places.PlacesService(map);
+        service.nearbySearch(request, function(results, status){
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i < results.length; i++) {
+                    var place = results[i];
+                    var marker = new google.maps.Marker({
+                         map: map,
+                        position: place.geometry.location,
+                        icon: "./img/icon.png"
+                     });
+                    google.maps.event.addListener(marker, 'click', function(){
+                        document.getElementById("information").innerHTML = place.name;
+                        });
+                 };
+             };
+        });
+    }    
 
-// Run the initialize function when the window has finished loading.
-google.maps.event.addDomListener(window, 'load', initialize);
+    // Run the functions when the window has finished loading.
+    google.maps.event.addDomListener(window, 'load', initialize)
+    </script>
+</head>
     
-</script>
+<body>
+<div id="header">
+    <div id="titleHeader">Places around this bus stop</div>
+</div>
+<div id="map-canvas"></div>
+<div id="informationLabel"></div>
+<div id="information"></div>
+<div id="buttons">
+<button type="button" onclick="cafes()">Cafes</button>
+<button type="button" onclick="restaurants()">Restaurants</button>  
+</div>
 </body>
 </html>
