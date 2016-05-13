@@ -1,8 +1,47 @@
-html, body {
+html, body, #wrapper{
     height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-#map {
-  height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#header{
+    height: 15%;
+    width: 100%;
+}
+
+#map-canvas{
+    height: 80%;
+    width: 70%;
+    float:right;
+    right:10%
+}
+
+#informationLabel{
+    height: 80%;
+    width: 20%;
+    float:left;
+    background-color:darkorange;
+}
+
+#titleHeader{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    top: 5%;
+    left: 50%;
+    color: #000000;
+    text-align: center;
+}
+
+#buttons{
+    position:absolute;
+    left: 90%;
+    top: 20%;
+}
+
+#information{
+    position:absolute;
+    color: #000000;
+    left: 5%;
+    top: 5%;
 }
