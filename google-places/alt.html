@@ -26,6 +26,7 @@ Restaurants</button>
 <script type='text/javascript'>
 var map, service, xlocation;
 var markers = [];
+var cache = {};
 
 function initialize() {
     xlocation = new google.maps.LatLng(51.511732, -0.123270);
@@ -62,19 +63,29 @@ function initialize() {
 }
 
 function loadPlaces(type){
-    var request = {
-        location: xlocation,
-        radius: '500',
-        types: [type]
-    };
-    service.nearbySearch(request, function(results, status){
-        if (status === google.maps.places.PlacesServiceStatus.OK) {
-            for (var i = 0; i < results.length; i++) {
-                var place = results[i];
-                createMarker(place);
-            }
+    if(cache[type]){
+        // use cached results
+        for (var i = 0; i < cache[type].length; i++) {
+            var place = cache[type][i];
+            createMarker(place);
         }
-    });
+    } else {
+        var request = {
+            location: xlocation,
+            radius: '500',
+            types: [type]
+        };
+        service.nearbySearch(request, function(results, status){
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i < results.length; i++) {
+                    var place = results[i];
+                    createMarker(place);
+                }
+                // save results in cache object
+                cache[type] = results;
+            }
+        });
+    }
 }
 
 // creates a marker and adds a click listener
