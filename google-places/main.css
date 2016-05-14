@@ -45,3 +45,39 @@ html, body, #wrapper{
     left: 5%;
     top: 5%;
 }
+
+
+button {
+    background-color: #ffffd4;
+    border: 1px solid #fe9929;
+    color: #993404;
+
+    /* padding is spacing inside the button (around the text)
+    order of values: top right bottom left */
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+    outline: none;
+    margin: 0 0 0.5em;
+    border-radius: 3px;
+
+    box-shadow: inset 0px -2px 7px -4px #fe9929;
+
+    cursor: pointer;
+}
+
+/* a slight change of background color on hover */
+button:hover {
+    background-color: #fffacf;
+}
+
+/* change shadow to give the effect that the button is pressed */
+button:active {
+    box-shadow: inset 0px 2px 7px -4px #fe9929;
+    outline: none;
+}
+
+/* fix for dotted outline on text in firefox */
+button::-moz-focus-inner {
+  border: 0;
+}
+

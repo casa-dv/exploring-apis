@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel='stylesheet' id='font-css'  href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-css'  href='main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-css'  href='font-awesome.min.css' type='text/css' media='all' />
+</head>
+<body>
+<div id="header">
+    <div id="titleHeader">Places around this bus stop</div>
+</div>
+<div id="map-canvas"></div>
+<div id="informationLabel"></div>
+<div id="information"></div>
+<div id="buttons">
+    <button type="button" class="show-markers" data-type="cafe"><i class="fa fa-coffee" aria-hidden="true"></i>
+Cafes</button>
+    <button type="button" class="show-markers" data-type="restaurant"><i class="fa fa-cutlery" aria-hidden="true"></i>
+Restaurants</button>
+</div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLtPceftpSX6ce7Q_7OvudzfBF9sC22-c&amp;libraries=places"></script>
+<script type="text/javascript" src="jquery.2.2.3.js"></script>
+<script type='text/javascript' src='main.js'></script>
+<script type='text/javascript'>
+var map, service, xlocation;
+var markers = [];
+
+function initialize() {
+    xlocation = new google.maps.LatLng(51.511732, -0.123270);
+    // set up map once here
+    map = new google.maps.Map(document.getElementById("map-canvas"), {
+        center: xlocation,
+        zoom: 18,
+        minZoom: 18,
+        maxZoom: 18,
+        streetViewControl:false,
+        zoomControl:false,
+        mapTypeControl:false
+    });
+    // set up location service once here
+    service = new google.maps.places.PlacesService(map);
+
+    // loadPlaces uses map and service each time it is called, no need to create them again
+    loadPlaces('bus_station');
+
+    // using jQuery, when user clicks on a button with class="show-markers"...
+    $('.show-markers').click(function(e){
+        // good practice: prevent default browser event from continuing
+        e.preventDefault();
+
+        // clear currently showing markers
+        deleteMarkers();
+
+        // get the data-type of 'this' button (the one just clicked)
+        var place_type = $(this).data('type');
+
+        // load places with that place type
+        loadPlaces(place_type);
+    });
+}
+
+function loadPlaces(type){
+    var request = {
+        location: xlocation,
+        radius: '500',
+        types: [type]
+    };
+    service.nearbySearch(request, function(results, status){
+        if (status === google.maps.places.PlacesServiceStatus.OK) {
+            for (var i = 0; i < results.length; i++) {
+                var place = results[i];
+                createMarker(place);
+            }
+        }
+    });
+}
+
+// creates a marker and adds a click listener
+function createMarker(place) {
+    var placeLoc = place.geometry.location;
+    var marker = new google.maps.Marker({
+        map: map,
+        position: placeLoc
+    });
+    markers.push(marker);
+    google.maps.event.addListener(marker, 'click', function() {
+        document.getElementById('information').innerText = place.name;
+    });
+}
+
+// deletes all markers in the array by removing references to them.
+function deleteMarkers() {
+    // for each marker
+    for (var i = 0; i < markers.length; i++) {
+        // sets the marker's map to null (so it doesn't show)
+        markers[i].setMap(null);
+        // remove event listeners
+        google.maps.event.clearListeners(markers[i], 'click');
+    }
+    // set list of markers to empty
+    markers = [];
+}
+
+// Run the functions when the window has finished loading.
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</body>
+</html>
