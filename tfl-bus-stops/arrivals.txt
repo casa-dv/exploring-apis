@@ -1,0 +1,3 @@
+https://api.tfl.gov.uk/StopPoint/490000266G/arrivals
+
+- uses Naptan code
