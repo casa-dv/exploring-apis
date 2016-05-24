@@ -10,78 +10,149 @@ html, body, #wrapper{
 }
 
 #map-canvas{
-    height: 80%;
-    width: 70%;
+    height: 800px;
+    width: 800px;
+    top:95px;
     float:right;
-    right:10%
+    right:9.5%;
+    border-radius: 50%;
 }
 
 #informationLabel{
     height: 80%;
-    width: 20%;
+    width: 15%;
     float:left;
-    background-color:darkorange;
+    background-color:#97a4c3;
 }
 
 #titleHeader{
     position: absolute;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
     font-size: 30px;
     top: 5%;
-    left: 50%;
+    left: 7%;
     color: #000000;
     text-align: center;
 }
 
+#place_name{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    top: 25%;
+    float:left;
+    left:7%;
+    text-align:center;
+}
+
+#place_number{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: 30%;
+    float:left;
+    left:7%;
+    text-align:center; 
+}
+
+#place_address{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: 35%;
+    float:left;
+    left:7%;
+    text-align:center; 
+}
+
+#place_website{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: 40%;
+    float:left;
+    left:7%;
+    text-align:center; 
+}
+
+#place_distance{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: 45%;
+    float:left;
+    left:7%;
+    text-align:center; 
+}
+
+#place_price_level{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: 50%;
+    float:left;
+    left:7%;
+    text-align:center; 
+}
+
+#place_rating{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: 55%;
+    float:left;
+    left:7%;
+    text-align:center; 
+}
+
+#place_reviews{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    top: 60%;
+    float:left;
+    left:7%;
+    text-align:justify;
+    width:30%; 
+}
+
+#chart{
+    position:absolute;
+    top:65%;
+    float:left;
+    left:7%;
+}
+
 #buttons{
     position:absolute;
-    left: 90%;
-    top: 20%;
+    left: 7%;
+    top: 15%;
 }
-
-#information{
-    position:absolute;
-    color: #000000;
-    left: 5%;
-    top: 5%;
-}
-
 
 button {
-    background-color: #ffffd4;
-    border: 1px solid #fe9929;
-    color: #993404;
-
-    display: block;
-    height: 7em;
-    width: 7em;
-
-    /* padding is spacing inside the button (around the text)
-    order of values: top right bottom left */
-    padding: 0.5em 0.5em 0.5em 0.5em;
-
-    outline: none;
-    margin: 0 0 0.5em;
-    border-radius: 3px;
-
-    box-shadow: inset 0px -2px 7px -4px #fe9929;
-
+    height: 60px;
+    width: 60px;
     cursor: pointer;
+    border-radius: 50%;
 }
 
-/* a slight change of background color on hover */
-button:hover {
-    background-color: #fffacf;
+#buttonsreviews {
+    position:absolute;
+    left:38%;
+    top:60%;
 }
 
-/* change shadow to give the effect that the button is pressed */
-button:active {
-    box-shadow: inset 0px 2px 7px -4px #fe9929;
-    outline: none;
+#background{
+    position:absolute;
+    width: 100%;
+    height: 100%;
 }
-
-/* fix for dotted outline on text in firefox */
-button::-moz-focus-inner {
-  border: 0;
-}
-
