@@ -2,11 +2,11 @@
 <html>
 <head>
     <link rel='stylesheet' id='font-css'  href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-css'  href='./css/main.css' type='text/css' media='all' />    
+    <link rel='stylesheet' id='font-css'  href='./css/style.css' type='text/css' media='all' />    
     <script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js?ver=1.10.2'></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgo0C-bUIQ1276K8gt-DaikKwoYd_Ay_M&libraries=places"></script>
     <script type='text/javascript' src='http://arshaw.com/xdate/downloads/0.8/xdate.js'></script>
-    <script type='text/javascript' src='./js/main.js'></script>
+    <script type='text/javascript' src='./js/mapStyle.js'></script>
     <script type='text/javascript' src='./js/tripadvisor.js'></script>
     <script src='http://d3js.org/d3.v3.min.js'></script>
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -17,6 +17,7 @@
     var ratings=[];
     var names=[];
     var distances=[];
+    var photos=[];
     for (var i=0; i<tripadvisor_cafe.length; i++){
         var cafe = tripadvisor_cafe[i];
     }
@@ -205,6 +206,7 @@
       }
     };
 
+    var num=0;
     function initialize() {
         var location = new google.maps.LatLng(51.511732, -0.123270);
         var directionsDisplay = new google.maps.DirectionsRenderer();
@@ -226,8 +228,7 @@
         });
         directionsDisplay.setMap(map);
     }
-    var num = 0;
-    function switchreviews(){num=num+1;}
+
     function cafes() {
         RadarChart.draw("#chart", d, mycfg);
         var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers:true,preserveViewport:true})
@@ -258,7 +259,7 @@
                 location: location,
                 radius: '300',
                 types: ['cafe'],
-                openNow: true
+                openNow: false
             };
         var service = new google.maps.places.PlacesService(map);
         var directionsService = new google.maps.DirectionsService;
@@ -303,12 +304,14 @@
                     document.getElementById("place_price_level").innerHTML = price_level;
                     var rating;
                     if (results && results.rating){rating = results.rating;}
-                    else {rating = "";}
+                    else {rating = ratings[names.indexOf(results.name)];}
                     document.getElementById("place_rating").innerHTML = rating;
                     var reviews;
-                    if (results && results.reviews){reviews = results.reviews[num].text;}
-                    else {reviews = "";}
+                    if (results && results.reviews){reviews=results.reviews[0].text;}
+                    else {reviews="";}
                     document.getElementById("place_reviews").innerHTML = reviews;
+                    document.getElementById("place_photos").innerHTML = results.photos[0].html_attributions;
+                    place_reviews.onclick = function() {if(num<results.reviews.length-1){num=num+1; document.getElementById("place_reviews").innerHTML = results.reviews[num].text}else{num=0;document.getElementById("place_reviews").innerHTML = results.reviews[num].text}};
                     var d = [[{axis:"Distance",value:1},{axis:"Price",value:2},{axis:"Rating",value:5}],
                             [{axis:"Distance",value:distances[distances.length-1]},{axis:"Price",value:price_level},{axis:"Rating",value:rating}]];
                     RadarChart.draw("#chart", d, mycfg);
@@ -348,7 +351,7 @@
             };
         });
 
-        document.getElementById("titleHeader").innerHTML = "Cafes around this bus stop";
+        document.getElementById("titleHeader").innerHTML = "Cafes at a walking distance";
     }
         
     function restaurants() {
@@ -423,7 +426,7 @@
                 };
             };
         });
-        document.getElementById("titleHeader").innerHTML = "Restaurants around this bus stop";
+        document.getElementById("titleHeader").innerHTML = "Restaurants at a walking distance";
     }
 
     function atm() {
@@ -465,7 +468,7 @@
                  };
             };
         });
-        document.getElementById("titleHeader").innerHTML = "ATM and banks around this bus stop";
+        document.getElementById("titleHeader").innerHTML = "ATM and banks at a walking distance";
     }
 
     function parks() {
@@ -507,7 +510,7 @@
                  };
             };
         });
-        document.getElementById("titleHeader").innerHTML = "Parks around this bus stop";
+        document.getElementById("titleHeader").innerHTML = "Parks at a walking distance";
     }
 
 
@@ -529,10 +532,11 @@
 <div id="place_price_level"></div>
 <div id="place_rating"></div>
 <div id="place_reviews"></div>
+<div id="place_photos"></div>
 <div id="chart"></div>
 RadarChart.draw("#chart", d, mycfg);
 <div id="buttonsreviews">
-    <button type="button" onclick="switchreviews()"></button>
+    <button type="button"></button>
 </div>
 <div id="buttons">
     <button type="button" onclick="cafes()"><img src = "./img/button_cafe.png" border-radius="50%"></button>
