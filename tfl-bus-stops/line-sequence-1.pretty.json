@@ -1,0 +1,4883 @@
+{
+  "orderedLineRoutes": [
+    {
+      "serviceType": "Regular",
+      "naptanIds": [
+        "490000235Z",
+        "490010131WB",
+        "490000112M",
+        "490019704K",
+        "490003193S",
+        "490014271N",
+        "490000254E",
+        "490013485S1",
+        "490012693S2",
+        "490009281E",
+        "490000073K",
+        "490011632BA",
+        "490003658BC",
+        "490004315BH",
+        "490007533E",
+        "490006792E",
+        "490012367E",
+        "490003275E",
+        "490003533E",
+        "490012353E",
+        "490003311E",
+        "490009482S",
+        "490007086B",
+        "490003716E",
+        "490005603E",
+        "490014228E",
+        "490000229O",
+        "490011723P",
+        "490004733D"
+      ],
+      "name": "New Oxford Street &harr;  Canada Water Bus Station",
+      "$type": "Tfl.Api.Presentation.Entities.OrderedRoute, Tfl.Api.Presentation.Entities"
+    }
+  ],
+  "stopPointSequences": [
+    {
+      "stopPoint": [
+        {
+          "lon": -0.128462,
+          "lat": 51.516732,
+          "name": "New Oxford Street",
+          "id": "490000235Z",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/242",
+              "name": "242",
+              "id": "242",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/25",
+              "name": "25",
+              "id": "25",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n207",
+              "name": "N207",
+              "id": "n207",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n8",
+              "name": "N8",
+              "id": "n8",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "Z",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00018892",
+          "stationId": "490G00018892",
+          "icsId": "1018892",
+          "topMostParentId": "490G00018892",
+          "towards": "Aldwych or Holborn Circus",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.124333,
+          "lat": 51.517584,
+          "name": "Museum Street",
+          "id": "490010131WB",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/19",
+              "name": "19",
+              "id": "19",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/242",
+              "name": "242",
+              "id": "242",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/25",
+              "name": "25",
+              "id": "25",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/38",
+              "name": "38",
+              "id": "38",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/55",
+              "name": "55",
+              "id": "55",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/8",
+              "name": "8",
+              "id": "8",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n19",
+              "name": "N19",
+              "id": "n19",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n207",
+              "name": "N207",
+              "id": "n207",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n35",
+              "name": "N35",
+              "id": "n35",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n38",
+              "name": "N38",
+              "id": "n38",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n41",
+              "name": "N41",
+              "id": "n41",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n55",
+              "name": "N55",
+              "id": "n55",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n8",
+              "name": "N8",
+              "id": "n8",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "E",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00010131",
+          "stationId": "490G00010131",
+          "icsId": "1010131",
+          "topMostParentId": "490G00010131",
+          "towards": "Aldwych, Angel, Bank or Old Street",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.119683,
+          "lat": 51.516754,
+          "name": "Kingsway / Holborn Station",
+          "id": "490000112M",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/243",
+              "name": "243",
+              "id": "243",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/521",
+              "name": "521",
+              "id": "521",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/59",
+              "name": "59",
+              "id": "59",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/68",
+              "name": "68",
+              "id": "68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/91",
+              "name": "91",
+              "id": "91",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n91",
+              "name": "N91",
+              "id": "n91",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/x68",
+              "name": "X68",
+              "id": "x68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "M",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00000350",
+          "stationId": "490G00000350",
+          "icsId": "1000350",
+          "topMostParentId": "490G00000350",
+          "towards": "Waterloo or Trafalgar Square",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.116206,
+          "lat": 51.513344,
+          "name": "Aldwych / The Royal Courts Of Justice",
+          "id": "490019704K",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/243",
+              "name": "243",
+              "id": "243",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/521",
+              "name": "521",
+              "id": "521",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/59",
+              "name": "59",
+              "id": "59",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/68",
+              "name": "68",
+              "id": "68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/91",
+              "name": "91",
+              "id": "91",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n343",
+              "name": "N343",
+              "id": "n343",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n91",
+              "name": "N91",
+              "id": "n91",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/x68",
+              "name": "X68",
+              "id": "x68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "K",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00019704",
+          "stationId": "490G00019704",
+          "icsId": "1019704",
+          "topMostParentId": "490G00019704",
+          "towards": "Aldwych / The Royal Courts Of Justice",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.117045,
+          "lat": 51.511864,
+          "name": "Aldwych / Somerset House",
+          "id": "490003193S",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/172",
+              "name": "172",
+              "id": "172",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/243",
+              "name": "243",
+              "id": "243",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/26",
+              "name": "26",
+              "id": "26",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/341",
+              "name": "341",
+              "id": "341",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/4",
+              "name": "4",
+              "id": "4",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/521",
+              "name": "521",
+              "id": "521",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/59",
+              "name": "59",
+              "id": "59",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/68",
+              "name": "68",
+              "id": "68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/76",
+              "name": "76",
+              "id": "76",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n343",
+              "name": "N343",
+              "id": "n343",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/rv1",
+              "name": "RV1",
+              "id": "rv1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/x68",
+              "name": "X68",
+              "id": "x68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "S",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000386",
+          "stationId": "490G000386",
+          "icsId": "1003193",
+          "topMostParentId": "490G000386",
+          "towards": "Waterloo",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.115398,
+          "lat": 51.507081,
+          "name": "Waterloo Bridge / South Bank",
+          "id": "490014271N",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/139",
+              "name": "139",
+              "id": "139",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/172",
+              "name": "172",
+              "id": "172",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/176",
+              "name": "176",
+              "id": "176",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/243",
+              "name": "243",
+              "id": "243",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/26",
+              "name": "26",
+              "id": "26",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/341",
+              "name": "341",
+              "id": "341",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/4",
+              "name": "4",
+              "id": "4",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/521",
+              "name": "521",
+              "id": "521",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/59",
+              "name": "59",
+              "id": "59",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/68",
+              "name": "68",
+              "id": "68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/76",
+              "name": "76",
+              "id": "76",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n343",
+              "name": "N343",
+              "id": "n343",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/rv1",
+              "name": "RV1",
+              "id": "rv1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/x68",
+              "name": "X68",
+              "id": "x68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "N",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000819",
+          "stationId": "490G000819",
+          "icsId": "1014271",
+          "topMostParentId": "HUBWAT",
+          "towards": "Elephant & Castle or Tate Modern",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.111409,
+          "lat": 51.503527,
+          "name": "Waterloo Station / Waterloo Road",
+          "id": "490000254E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/139",
+              "name": "139",
+              "id": "139",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/26",
+              "name": "26",
+              "id": "26",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/4",
+              "name": "4",
+              "id": "4",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "E",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000401",
+          "stationId": "490G000401",
+          "icsId": "1003705",
+          "topMostParentId": "HUBWAT",
+          "towards": "Elephant & Castle",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.108747,
+          "lat": 51.501344,
+          "name": "The Old Vic",
+          "id": "490013485S1",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/172",
+              "name": "172",
+              "id": "172",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/176",
+              "name": "176",
+              "id": "176",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/68",
+              "name": "68",
+              "id": "68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "S",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00013485",
+          "stationId": "490G00013485",
+          "icsId": "1013485",
+          "topMostParentId": "490G00013485",
+          "towards": "Camberwell or Bricklayers Arms",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.106193,
+          "lat": 51.499343,
+          "name": "St George's Circus",
+          "id": "490012693S2",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/171",
+              "name": "171",
+              "id": "171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/172",
+              "name": "172",
+              "id": "172",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/176",
+              "name": "176",
+              "id": "176",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/68",
+              "name": "68",
+              "id": "68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n171",
+              "name": "N171",
+              "id": "n171",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n68",
+              "name": "N68",
+              "id": "n68",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "T",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00012693",
+          "stationId": "490G00012693",
+          "icsId": "1012693",
+          "topMostParentId": "490G00012693",
+          "towards": "Camberwell or Bricklayers Arms",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.101173,
+          "lat": 51.496033,
+          "name": "Elephant & Castle / London Road",
+          "id": "490009281E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/172",
+              "name": "172",
+              "id": "172",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/363",
+              "name": "363",
+              "id": "363",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/453",
+              "name": "453",
+              "id": "453",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/53",
+              "name": "53",
+              "id": "53",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/63",
+              "name": "63",
+              "id": "63",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n63",
+              "name": "N63",
+              "id": "n63",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "E",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000642",
+          "stationId": "490G000642",
+          "icsId": "1009281",
+          "topMostParentId": "490G000642",
+          "towards": "New Cross, Peckham or Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.099066,
+          "lat": 51.495082,
+          "name": "Elephant & Castle / New Kent Road",
+          "id": "490000073K",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "K",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000645",
+          "stationId": "490G000645",
+          "icsId": "1009298",
+          "topMostParentId": "HUBEPH",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.094434,
+          "lat": 51.494224,
+          "name": "Rodney Place",
+          "id": "490011632BA",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/168",
+              "name": "168",
+              "id": "168",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/172",
+              "name": "172",
+              "id": "172",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/363",
+              "name": "363",
+              "id": "363",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/415",
+              "name": "415",
+              "id": "415",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/453",
+              "name": "453",
+              "id": "453",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/53",
+              "name": "53",
+              "id": "53",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/63",
+              "name": "63",
+              "id": "63",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n63",
+              "name": "N63",
+              "id": "n63",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "BA",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00011632",
+          "stationId": "490G00011632",
+          "icsId": "1011632",
+          "topMostParentId": "490G00011632",
+          "towards": "New Cross, Peckham or Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.087683,
+          "lat": 51.49442,
+          "name": "Bricklayer's Arms / New Kent Road",
+          "id": "490003658BC",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "BC",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00003658",
+          "stationId": "490G00003658",
+          "icsId": "1003658",
+          "topMostParentId": "490G00003658",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.083454,
+          "lat": 51.495637,
+          "name": "Bricklayer's Arms / Tower Bridge Road",
+          "id": "490004315BH",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/42",
+              "name": "42",
+              "id": "42",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "BH",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00019012",
+          "stationId": "490G00019012",
+          "icsId": "1019012",
+          "topMostParentId": "490G00019012",
+          "towards": "Surrey Quays or Tower Gateway",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.080654,
+          "lat": 51.496445,
+          "name": "Griggs Place",
+          "id": "490007533E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/78",
+              "name": "78",
+              "id": "78",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "N",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00007533",
+          "stationId": "490G00007533",
+          "icsId": "1007533",
+          "topMostParentId": "490G00007533",
+          "towards": "Peckham or Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.078237,
+          "lat": 51.495686,
+          "name": "Fendall Street",
+          "id": "490006792E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/78",
+              "name": "78",
+              "id": "78",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "P",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00006792",
+          "stationId": "490G00006792",
+          "icsId": "1006792",
+          "topMostParentId": "490G00006792",
+          "towards": "Peckham or Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.076184,
+          "lat": 51.494825,
+          "name": "Spa Road",
+          "id": "490012367E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/78",
+              "name": "78",
+              "id": "78",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "Q",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00012367",
+          "stationId": "490G00012367",
+          "icsId": "1012367",
+          "topMostParentId": "490G00012367",
+          "towards": "Peckham or Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.074359,
+          "lat": 51.493689,
+          "name": "Alscot Road",
+          "id": "490003275E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/78",
+              "name": "78",
+              "id": "78",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "R",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00003275",
+          "stationId": "490G00003275",
+          "icsId": "1003275",
+          "topMostParentId": "490G00003275",
+          "towards": "Peckham or Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.071112,
+          "lat": 51.492808,
+          "name": "Harris Academy",
+          "id": "490003533E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00003533",
+          "stationId": "490G00003533",
+          "icsId": "1003533",
+          "topMostParentId": "490G00003533",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.065656,
+          "lat": 51.492377,
+          "name": "Southwark Park Road / St James's Road",
+          "id": "490012353E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "PA",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00012353",
+          "stationId": "490G00012353",
+          "icsId": "1012353",
+          "topMostParentId": "490G00012353",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.061386,
+          "lat": 51.492171,
+          "name": "Anchor Street",
+          "id": "490003311E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/p12",
+              "name": "P12",
+              "id": "p12",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "PB",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00003311",
+          "stationId": "490G00003311",
+          "icsId": "1003311",
+          "topMostParentId": "490G00003311",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.059898,
+          "lat": 51.490573,
+          "name": "Lynton Road",
+          "id": "490009482S",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "GS",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00009482",
+          "stationId": "490G00009482",
+          "icsId": "1009482",
+          "topMostParentId": "490G00009482",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.058017,
+          "lat": 51.489058,
+          "name": "Galleywall Road / South Bermondsey Stn",
+          "id": "490007086B",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "GT",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000529",
+          "stationId": "490G000529",
+          "icsId": "1007086",
+          "topMostParentId": "490G000529",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.056395,
+          "lat": 51.489616,
+          "name": "Beamish House",
+          "id": "490003716E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "RL",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000403",
+          "stationId": "490G000403",
+          "icsId": "1003716",
+          "topMostParentId": "490G000403",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.053169,
+          "lat": 51.490947,
+          "name": "Corbetts Lane",
+          "id": "490005603E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "RM",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00005603",
+          "stationId": "490G00005603",
+          "icsId": "1005603",
+          "topMostParentId": "490G00005603",
+          "towards": "Surrey Quays",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.050525,
+          "lat": 51.491128,
+          "name": "Warndon Street",
+          "id": "490014228E",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n1",
+              "name": "N1",
+              "id": "n1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "RN",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00011722",
+          "stationId": "490G00011722",
+          "icsId": "1011722",
+          "topMostParentId": "490G00011722",
+          "towards": "Canada Water",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.048095,
+          "lat": 51.492715,
+          "name": "Surrey Quays Station",
+          "id": "490000229O",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/188",
+              "name": "188",
+              "id": "188",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/199",
+              "name": "199",
+              "id": "199",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/225",
+              "name": "225",
+              "id": "225",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/47",
+              "name": "47",
+              "id": "47",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n199",
+              "name": "N199",
+              "id": "n199",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "S",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00229O",
+          "stationId": "490G00229O",
+          "icsId": "1000229",
+          "topMostParentId": "910GSURREYQ",
+          "towards": "London Bridge or Elephant & Castle",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.051583,
+          "lat": 51.495363,
+          "name": "Rotherhithe Police Station",
+          "id": "490011723P",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/199",
+              "name": "199",
+              "id": "199",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/225",
+              "name": "225",
+              "id": "225",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/381",
+              "name": "381",
+              "id": "381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n199",
+              "name": "N199",
+              "id": "n199",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/n381",
+              "name": "N381",
+              "id": "n381",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "stopLetter": "P",
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G00011723",
+          "stationId": "490G00011723",
+          "icsId": "1011723",
+          "topMostParentId": "490G00011723",
+          "towards": "Canada Water",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram"
+        },
+        {
+          "lon": -0.049937,
+          "lat": 51.498151,
+          "name": "Canada Water Bus Station",
+          "id": "490004733D",
+          "status": true,
+          "lines": [
+            {
+              "type": "Line",
+              "uri": "/Line/1",
+              "name": "1",
+              "id": "1",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/199",
+              "name": "199",
+              "id": "199",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/225",
+              "name": "225",
+              "id": "225",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/c10",
+              "name": "C10",
+              "id": "c10",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            },
+            {
+              "type": "Line",
+              "uri": "/Line/p12",
+              "name": "P12",
+              "id": "p12",
+              "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+            }
+          ],
+          "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+          "parentId": "490G000438",
+          "stationId": "490G000438",
+          "icsId": "1004733",
+          "topMostParentId": "HUBZCW",
+          "modes": [
+            "bus"
+          ],
+          "stopType": "NaptanPublicBusCoachTram",
+          "stopLetter": "D"
+        }
+      ],
+      "prevBranchIds": [],
+      "nextBranchIds": [],
+      "branchId": 1,
+      "direction": "outbound",
+      "lineName": "1",
+      "lineId": "1",
+      "$type": "Tfl.Api.Presentation.Entities.StopPointSequence, Tfl.Api.Presentation.Entities"
+    }
+  ],
+  "$type": "Tfl.Api.Presentation.Entities.RouteSequence, Tfl.Api.Presentation.Entities",
+  "lineId": "1",
+  "lineName": "1",
+  "direction": "outbound",
+  "isOutboundOnly": false,
+  "mode": "bus",
+  "lineStrings": [
+    "[[[-0.128761,51.516634],[-0.128442,51.516683],[-0.127804,51.516780],[-0.127557,51.516821],[-0.125601,51.517078],[-0.120966,51.519027],[-0.120245,51.517298],[-0.117481,51.513369],[-0.117226,51.513266],[-0.116215,51.513303],[-0.115756,51.513242],[-0.114846,51.512949],[-0.114851,51.512823],[-0.116887,51.512037],[-0.117951,51.511758],[-0.119036,51.511307],[-0.118313,51.510307],[-0.113711,51.505188],[-0.113228,51.505036],[-0.113035,51.504475],[-0.112424,51.504259],[-0.109648,51.502056],[-0.109540,51.501874],[-0.105975,51.498885],[-0.105621,51.498736],[-0.105176,51.498710],[-0.104763,51.498928],[-0.104465,51.498825],[-0.104327,51.498328],[-0.100853,51.495610],[-0.100161,51.495607],[-0.100007,51.495515],[-0.099902,51.495262],[-0.099534,51.495094],[-0.094301,51.494146],[-0.086644,51.494327],[-0.086336,51.494448],[-0.086239,51.494716],[-0.085987,51.494874],[-0.084680,51.494771],[-0.083734,51.495349],[-0.082438,51.496371],[-0.081818,51.496712],[-0.078787,51.495817],[-0.076445,51.494996],[-0.075429,51.494143],[-0.074043,51.493518],[-0.073389,51.492967],[-0.072794,51.492733],[-0.072207,51.492660],[-0.071382,51.492746],[-0.069524,51.492751],[-0.067219,51.492389],[-0.063988,51.492165],[-0.062730,51.492261],[-0.060949,51.492151],[-0.059814,51.490369],[-0.059176,51.489783],[-0.057636,51.488751],[-0.055108,51.490282],[-0.053922,51.490721],[-0.051970,51.491220],[-0.051864,51.491353],[-0.051504,51.491356],[-0.051381,51.491192],[-0.051099,51.491052],[-0.049831,51.491067],[-0.047321,51.491475],[-0.047098,51.491642],[-0.047314,51.492320],[-0.047959,51.493068],[-0.048103,51.493394],[-0.048529,51.493887],[-0.050083,51.494596],[-0.052404,51.496263],[-0.050606,51.497195],[-0.049670,51.497530],[-0.049504,51.497707],[-0.049371,51.498119],[-0.049758,51.498161],[-0.049857,51.498199],[-0.049899,51.498244]]]"
+  ],
+  "stations": [
+    {
+      "lon": -0.119683,
+      "lat": 51.516754,
+      "name": "Kingsway / Holborn Station",
+      "id": "490G00000350",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00000350",
+      "icsId": "1000350",
+      "topMostParentId": "490G00000350",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/243",
+          "name": "243",
+          "id": "243",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/521",
+          "name": "521",
+          "id": "521",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/59",
+          "name": "59",
+          "id": "59",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/91",
+          "name": "91",
+          "id": "91",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n91",
+          "name": "N91",
+          "id": "n91",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/x68",
+          "name": "X68",
+          "id": "x68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.074434,
+      "lat": 51.493627,
+      "name": "Alscot Road",
+      "id": "490G00003275",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00003275",
+      "icsId": "1003275",
+      "topMostParentId": "490G00003275",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/78",
+          "name": "78",
+          "id": "78",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.060618,
+      "lat": 51.491583,
+      "name": "Anchor Street",
+      "id": "490G00003311",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00003311",
+      "icsId": "1003311",
+      "topMostParentId": "490G00003311",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/p12",
+          "name": "P12",
+          "id": "p12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.071112,
+      "lat": 51.492808,
+      "name": "Harris Academy",
+      "id": "490G00003533",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00003533",
+      "icsId": "1003533",
+      "topMostParentId": "490G00003533",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.090207,
+      "lat": 51.49402,
+      "name": "Bricklayer's Arms / New Kent Road",
+      "id": "490G00003658",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00003658",
+      "icsId": "1003658",
+      "topMostParentId": "490G00003658",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopCluster",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/363",
+          "name": "363",
+          "id": "363",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/415",
+          "name": "415",
+          "id": "415",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/453",
+          "name": "453",
+          "id": "453",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/53",
+          "name": "53",
+          "id": "53",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/63",
+          "name": "63",
+          "id": "63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n63",
+          "name": "N63",
+          "id": "n63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.053169,
+      "lat": 51.490947,
+      "name": "Corbetts Lane",
+      "id": "490G00005603",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00005603",
+      "icsId": "1005603",
+      "topMostParentId": "490G00005603",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.078237,
+      "lat": 51.495686,
+      "name": "Fendall Street",
+      "id": "490G00006792",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00006792",
+      "icsId": "1006792",
+      "topMostParentId": "490G00006792",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/78",
+          "name": "78",
+          "id": "78",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.080654,
+      "lat": 51.496445,
+      "name": "Griggs Place",
+      "id": "490G00007533",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00007533",
+      "icsId": "1007533",
+      "topMostParentId": "490G00007533",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/78",
+          "name": "78",
+          "id": "78",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.05977,
+      "lat": 51.490202,
+      "name": "Lynton Road",
+      "id": "490G00009482",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00009482",
+      "icsId": "1009482",
+      "topMostParentId": "490G00009482",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.125595,
+      "lat": 51.517046,
+      "name": "Museum Street",
+      "id": "490G00010131",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00010131",
+      "icsId": "1010131",
+      "topMostParentId": "490G00010131",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopCluster",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/19",
+          "name": "19",
+          "id": "19",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/242",
+          "name": "242",
+          "id": "242",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/25",
+          "name": "25",
+          "id": "25",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/38",
+          "name": "38",
+          "id": "38",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/55",
+          "name": "55",
+          "id": "55",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/8",
+          "name": "8",
+          "id": "8",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n19",
+          "name": "N19",
+          "id": "n19",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n207",
+          "name": "N207",
+          "id": "n207",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n35",
+          "name": "N35",
+          "id": "n35",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n38",
+          "name": "N38",
+          "id": "n38",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n41",
+          "name": "N41",
+          "id": "n41",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n55",
+          "name": "N55",
+          "id": "n55",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n8",
+          "name": "N8",
+          "id": "n8",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.094434,
+      "lat": 51.494224,
+      "name": "Rodney Place",
+      "id": "490G00011632",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00011632",
+      "icsId": "1011632",
+      "topMostParentId": "490G00011632",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/363",
+          "name": "363",
+          "id": "363",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/415",
+          "name": "415",
+          "id": "415",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/453",
+          "name": "453",
+          "id": "453",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/53",
+          "name": "53",
+          "id": "53",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/63",
+          "name": "63",
+          "id": "63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n63",
+          "name": "N63",
+          "id": "n63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.049073,
+      "lat": 51.491068,
+      "name": "Warndon Street",
+      "id": "490G00011722",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00011722",
+      "icsId": "1011722",
+      "topMostParentId": "490G00011722",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.050446,
+      "lat": 51.495012,
+      "name": "Rotherhithe Police Station",
+      "id": "490G00011723",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00011723",
+      "icsId": "1011723",
+      "topMostParentId": "490G00011723",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/199",
+          "name": "199",
+          "id": "199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/225",
+          "name": "225",
+          "id": "225",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n199",
+          "name": "N199",
+          "id": "n199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/p12",
+          "name": "P12",
+          "id": "p12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.065302,
+      "lat": 51.491885,
+      "name": "St James's Road / Southwark Park Road",
+      "id": "490G00012353",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00012353",
+      "icsId": "1012353",
+      "topMostParentId": "490G00012353",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopCluster",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/p12",
+          "name": "P12",
+          "id": "p12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.077659,
+      "lat": 51.49538,
+      "name": "Spa Road",
+      "id": "490G00012367",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00012367",
+      "icsId": "1012367",
+      "topMostParentId": "490G00012367",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/78",
+          "name": "78",
+          "id": "78",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.104747,
+      "lat": 51.500173,
+      "name": "St George's Circus",
+      "id": "490G00012693",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00012693",
+      "icsId": "1012693",
+      "topMostParentId": "490G00012693",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopCluster",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/100",
+          "name": "100",
+          "id": "100",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/12",
+          "name": "12",
+          "id": "12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/148",
+          "name": "148",
+          "id": "148",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/176",
+          "name": "176",
+          "id": "176",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/344",
+          "name": "344",
+          "id": "344",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/360",
+          "name": "360",
+          "id": "360",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/45",
+          "name": "45",
+          "id": "45",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/453",
+          "name": "453",
+          "id": "453",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/53",
+          "name": "53",
+          "id": "53",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/63",
+          "name": "63",
+          "id": "63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/c10",
+          "name": "C10",
+          "id": "c10",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n155",
+          "name": "N155",
+          "id": "n155",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n63",
+          "name": "N63",
+          "id": "n63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n89",
+          "name": "N89",
+          "id": "n89",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.108747,
+      "lat": 51.501344,
+      "name": "The Old Vic",
+      "id": "490G00013485",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00013485",
+      "icsId": "1013485",
+      "topMostParentId": "490G00013485",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/176",
+          "name": "176",
+          "id": "176",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.126591,
+      "lat": 51.516649,
+      "name": "New Oxford Street",
+      "id": "490G00018892",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00018892",
+      "icsId": "1018892",
+      "topMostParentId": "490G00018892",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopCluster",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/134",
+          "name": "134",
+          "id": "134",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/242",
+          "name": "242",
+          "id": "242",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/25",
+          "name": "25",
+          "id": "25",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n207",
+          "name": "N207",
+          "id": "n207",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n253",
+          "name": "N253",
+          "id": "n253",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n8",
+          "name": "N8",
+          "id": "n8",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.08395,
+      "lat": 51.495159,
+      "name": "Bricklayer's Arms / Tower Bridge Road",
+      "id": "490G00019012",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00019012",
+      "icsId": "1019012",
+      "topMostParentId": "490G00019012",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/42",
+          "name": "42",
+          "id": "42",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.116206,
+      "lat": 51.513344,
+      "name": "Aldwych / The Royal Courts Of Justice",
+      "id": "490G00019704",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G00019704",
+      "icsId": "1019704",
+      "topMostParentId": "490G00019704",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/243",
+          "name": "243",
+          "id": "243",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/521",
+          "name": "521",
+          "id": "521",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/59",
+          "name": "59",
+          "id": "59",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/91",
+          "name": "91",
+          "id": "91",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n343",
+          "name": "N343",
+          "id": "n343",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n91",
+          "name": "N91",
+          "id": "n91",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/x68",
+          "name": "X68",
+          "id": "x68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.116286,
+      "lat": 51.512104,
+      "name": "Aldwych / Somerset House",
+      "id": "490G000386",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G000386",
+      "icsId": "1003193",
+      "topMostParentId": "490G000386",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/11",
+          "name": "11",
+          "id": "11",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/13",
+          "name": "13",
+          "id": "13",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/15",
+          "name": "15",
+          "id": "15",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/23",
+          "name": "23",
+          "id": "23",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/243",
+          "name": "243",
+          "id": "243",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/26",
+          "name": "26",
+          "id": "26",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/341",
+          "name": "341",
+          "id": "341",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/4",
+          "name": "4",
+          "id": "4",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/521",
+          "name": "521",
+          "id": "521",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/59",
+          "name": "59",
+          "id": "59",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/6",
+          "name": "6",
+          "id": "6",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/76",
+          "name": "76",
+          "id": "76",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/87",
+          "name": "87",
+          "id": "87",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/9",
+          "name": "9",
+          "id": "9",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/91",
+          "name": "91",
+          "id": "91",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n11",
+          "name": "N11",
+          "id": "n11",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n13",
+          "name": "N13",
+          "id": "n13",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n15",
+          "name": "N15",
+          "id": "n15",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n155",
+          "name": "N155",
+          "id": "n155",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n199",
+          "name": "N199",
+          "id": "n199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n21",
+          "name": "N21",
+          "id": "n21",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n26",
+          "name": "N26",
+          "id": "n26",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n343",
+          "name": "N343",
+          "id": "n343",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n44",
+          "name": "N44",
+          "id": "n44",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n551",
+          "name": "N551",
+          "id": "n551",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n87",
+          "name": "N87",
+          "id": "n87",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n89",
+          "name": "N89",
+          "id": "n89",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n9",
+          "name": "N9",
+          "id": "n9",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n91",
+          "name": "N91",
+          "id": "n91",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/rv1",
+          "name": "RV1",
+          "id": "rv1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/x68",
+          "name": "X68",
+          "id": "x68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.056395,
+      "lat": 51.489616,
+      "name": "Beamish House",
+      "id": "490G000403",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G000403",
+      "icsId": "1003716",
+      "topMostParentId": "490G000403",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.058017,
+      "lat": 51.489058,
+      "name": "Galleywall Road / South Bermondsey Stn",
+      "id": "490G000529",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G000529",
+      "icsId": "1007086",
+      "topMostParentId": "490G000529",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopPair",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.101593,
+      "lat": 51.496328,
+      "name": "Elephant & Castle / London Road",
+      "id": "490G000642",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "490G000642",
+      "icsId": "1009281",
+      "topMostParentId": "490G000642",
+      "modes": [
+        "bus"
+      ],
+      "stopType": "NaptanOnstreetBusCoachStopCluster",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/100",
+          "name": "100",
+          "id": "100",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/12",
+          "name": "12",
+          "id": "12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/148",
+          "name": "148",
+          "id": "148",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/155",
+          "name": "155",
+          "id": "155",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/176",
+          "name": "176",
+          "id": "176",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/344",
+          "name": "344",
+          "id": "344",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/360",
+          "name": "360",
+          "id": "360",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/363",
+          "name": "363",
+          "id": "363",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/45",
+          "name": "45",
+          "id": "45",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/453",
+          "name": "453",
+          "id": "453",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/468",
+          "name": "468",
+          "id": "468",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/53",
+          "name": "53",
+          "id": "53",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/63",
+          "name": "63",
+          "id": "63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/c10",
+          "name": "C10",
+          "id": "c10",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n155",
+          "name": "N155",
+          "id": "n155",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n63",
+          "name": "N63",
+          "id": "n63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n89",
+          "name": "N89",
+          "id": "n89",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true
+    },
+    {
+      "lon": -0.047512,
+      "lat": 51.4932,
+      "name": "Surrey Quays Rail Station",
+      "id": "910GSURREYQ",
+      "status": true,
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "stationId": "910GSURREYQ",
+      "icsId": "1000229",
+      "topMostParentId": "910GSURREYQ",
+      "modes": [
+        "bus",
+        "overground",
+        "national-rail"
+      ],
+      "stopType": "NaptanRailStation",
+      "zone": "2",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/199",
+          "name": "199",
+          "id": "199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/225",
+          "name": "225",
+          "id": "225",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/47",
+          "name": "47",
+          "id": "47",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/london-overground",
+          "name": "London Overground",
+          "id": "london-overground",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n199",
+          "name": "N199",
+          "id": "n199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ]
+    },
+    {
+      "lon": -0.099185,
+      "lat": 51.494505,
+      "name": "Elephant & Castle",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000073",
+      "modes": [
+        "national-rail",
+        "tube",
+        "bus"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1+2",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/100",
+          "name": "100",
+          "id": "100",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/12",
+          "name": "12",
+          "id": "12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/133",
+          "name": "133",
+          "id": "133",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/136",
+          "name": "136",
+          "id": "136",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/148",
+          "name": "148",
+          "id": "148",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/155",
+          "name": "155",
+          "id": "155",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/176",
+          "name": "176",
+          "id": "176",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/196",
+          "name": "196",
+          "id": "196",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/333",
+          "name": "333",
+          "id": "333",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/343",
+          "name": "343",
+          "id": "343",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/35",
+          "name": "35",
+          "id": "35",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/363",
+          "name": "363",
+          "id": "363",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/40",
+          "name": "40",
+          "id": "40",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/415",
+          "name": "415",
+          "id": "415",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/45",
+          "name": "45",
+          "id": "45",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/453",
+          "name": "453",
+          "id": "453",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/468",
+          "name": "468",
+          "id": "468",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/53",
+          "name": "53",
+          "id": "53",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/63",
+          "name": "63",
+          "id": "63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/bakerloo",
+          "name": "Bakerloo",
+          "id": "bakerloo",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n133",
+          "name": "N133",
+          "id": "n133",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n155",
+          "name": "N155",
+          "id": "n155",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n343",
+          "name": "N343",
+          "id": "n343",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n35",
+          "name": "N35",
+          "id": "n35",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n63",
+          "name": "N63",
+          "id": "n63",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n89",
+          "name": "N89",
+          "id": "n89",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/northern",
+          "name": "Northern",
+          "id": "northern",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/p5",
+          "name": "P5",
+          "id": "p5",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/southeastern",
+          "name": "Southeastern",
+          "id": "southeastern",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/thameslink",
+          "name": "Thameslink",
+          "id": "thameslink",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true,
+      "id": "HUBEPH"
+    },
+    {
+      "lon": -0.113356,
+      "lat": 51.504269,
+      "name": "Waterloo",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000254",
+      "modes": [
+        "national-rail",
+        "tube",
+        "bus"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "1",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/139",
+          "name": "139",
+          "id": "139",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/168",
+          "name": "168",
+          "id": "168",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/171",
+          "name": "171",
+          "id": "171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/172",
+          "name": "172",
+          "id": "172",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/176",
+          "name": "176",
+          "id": "176",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/211",
+          "name": "211",
+          "id": "211",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/243",
+          "name": "243",
+          "id": "243",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/26",
+          "name": "26",
+          "id": "26",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/341",
+          "name": "341",
+          "id": "341",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/4",
+          "name": "4",
+          "id": "4",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/507",
+          "name": "507",
+          "id": "507",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/521",
+          "name": "521",
+          "id": "521",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/59",
+          "name": "59",
+          "id": "59",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/68",
+          "name": "68",
+          "id": "68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/76",
+          "name": "76",
+          "id": "76",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/77",
+          "name": "77",
+          "id": "77",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/bakerloo",
+          "name": "Bakerloo",
+          "id": "bakerloo",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/jubilee",
+          "name": "Jubilee",
+          "id": "jubilee",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n1",
+          "name": "N1",
+          "id": "n1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n171",
+          "name": "N171",
+          "id": "n171",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n343",
+          "name": "N343",
+          "id": "n343",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n68",
+          "name": "N68",
+          "id": "n68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/northern",
+          "name": "Northern",
+          "id": "northern",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/rv1",
+          "name": "RV1",
+          "id": "rv1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/south-west-trains",
+          "name": "South West Trains",
+          "id": "south-west-trains",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/waterloo-city",
+          "name": "Waterloo & City",
+          "id": "waterloo-city",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/x68",
+          "name": "X68",
+          "id": "x68",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true,
+      "id": "HUBWAT"
+    },
+    {
+      "lon": -0.049667,
+      "lat": 51.498053,
+      "name": "Canada Water",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedStop, Tfl.Api.Presentation.Entities",
+      "icsId": "1000037",
+      "modes": [
+        "tube",
+        "overground",
+        "bus"
+      ],
+      "stopType": "TransportInterchange",
+      "zone": "2",
+      "lines": [
+        {
+          "type": "Line",
+          "uri": "/Line/1",
+          "name": "1",
+          "id": "1",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/188",
+          "name": "188",
+          "id": "188",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/199",
+          "name": "199",
+          "id": "199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/225",
+          "name": "225",
+          "id": "225",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/381",
+          "name": "381",
+          "id": "381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/47",
+          "name": "47",
+          "id": "47",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/c10",
+          "name": "C10",
+          "id": "c10",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/jubilee",
+          "name": "Jubilee",
+          "id": "jubilee",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/london-overground",
+          "name": "London Overground",
+          "id": "london-overground",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n199",
+          "name": "N199",
+          "id": "n199",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/n381",
+          "name": "N381",
+          "id": "n381",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "type": "Line",
+          "uri": "/Line/p12",
+          "name": "P12",
+          "id": "p12",
+          "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "status": true,
+      "id": "HUBZCW"
+    }
+  ]
+}

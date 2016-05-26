@@ -1,0 +1,39 @@
+{
+  "serviceTypes": [
+    {
+      "uri": "/Line/Route?ids=1&serviceTypes=Regular",
+      "name": "Regular",
+      "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities"
+    }
+  ],
+  "routeSections": [
+    {
+      "serviceType": "Regular",
+      "destination": "490000235N",
+      "originator": "490004733C",
+      "destinationName": "Tottenham Court Road",
+      "originationName": "Canada Water Bus Station",
+      "direction": "inbound",
+      "name": "Canada Water Bus Station - Tottenham Court Road",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities"
+    },
+    {
+      "serviceType": "Regular",
+      "destination": "490004733D",
+      "originator": "490000235Z",
+      "destinationName": "Canada Water Bus Station",
+      "originationName": "New Oxford Street",
+      "direction": "outbound",
+      "name": "New Oxford Street - Canada Water Bus Station",
+      "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities"
+    }
+  ],
+  "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+  "id": "1",
+  "name": "1",
+  "modeName": "bus",
+  "disruptions": [],
+  "created": "2016-05-17T13:58:58.45",
+  "modified": "2016-05-17T13:58:58.45",
+  "lineStatuses": []
+}

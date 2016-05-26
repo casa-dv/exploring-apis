@@ -1,0 +1,179 @@
+{
+  "places": [
+    {
+      "lon": -0.117863,
+      "lat": 51.515208,
+      "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+      "id": "BikePoints_372",
+      "url": "https://api-neon.tfl.gov.uk/Place/BikePoints_372",
+      "commonName": "Sardinia Street, Holborn",
+      "distance": 118.19392220098247,
+      "placeType": "BikePoint",
+      "additionalProperties": [
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "002649",
+          "sourceSystemKey": "BikePoints",
+          "key": "TerminalName",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "true",
+          "sourceSystemKey": "BikePoints",
+          "key": "Installed",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "false",
+          "sourceSystemKey": "BikePoints",
+          "key": "Locked",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "1291713000000",
+          "sourceSystemKey": "BikePoints",
+          "key": "InstallDate",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "",
+          "sourceSystemKey": "BikePoints",
+          "key": "RemovalDate",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "false",
+          "sourceSystemKey": "BikePoints",
+          "key": "Temporary",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "15",
+          "sourceSystemKey": "BikePoints",
+          "key": "NbBikes",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "8",
+          "sourceSystemKey": "BikePoints",
+          "key": "NbEmptyDocks",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:12:02.437",
+          "value": "24",
+          "sourceSystemKey": "BikePoints",
+          "key": "NbDocks",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "children": []
+    },
+    {
+      "lon": -0.120909,
+      "lat": 51.516128,
+      "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+      "id": "BikePoints_751",
+      "url": "https://api-neon.tfl.gov.uk/Place/BikePoints_751",
+      "commonName": "Newton Street, Covent Garden",
+      "distance": 132.97456096426083,
+      "placeType": "BikePoint",
+      "additionalProperties": [
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "300074",
+          "sourceSystemKey": "BikePoints",
+          "key": "TerminalName",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "true",
+          "sourceSystemKey": "BikePoints",
+          "key": "Installed",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "false",
+          "sourceSystemKey": "BikePoints",
+          "key": "Locked",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "1386250800000",
+          "sourceSystemKey": "BikePoints",
+          "key": "InstallDate",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "",
+          "sourceSystemKey": "BikePoints",
+          "key": "RemovalDate",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "false",
+          "sourceSystemKey": "BikePoints",
+          "key": "Temporary",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "21",
+          "sourceSystemKey": "BikePoints",
+          "key": "NbBikes",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "1",
+          "sourceSystemKey": "BikePoints",
+          "key": "NbEmptyDocks",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        },
+        {
+          "modified": "2016-05-24T16:27:07.387",
+          "value": "24",
+          "sourceSystemKey": "BikePoints",
+          "key": "NbDocks",
+          "category": "Description",
+          "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "centrePoint": [
+    51.516,
+    -0.119
+  ],
+  "$type": "Tfl.Api.Presentation.Entities.PlacesResponse, Tfl.Api.Presentation.Entities"
+}
