@@ -1,4 +1,6 @@
 request_token.py
+*.mbtiles
+deploy
 __pycache__
 node_modules
 **/.tern-port
