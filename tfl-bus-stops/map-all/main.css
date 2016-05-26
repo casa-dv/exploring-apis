@@ -5,3 +5,15 @@
     right:0;
     bottom:0;
 }
+#label {
+	position: absolute;
+	top: 0;
+	left:0;
+	max-width: 45em;
+	padding:0 2em 2em;
+	z-index: 500;
+	background: #fff;
+}
+h1 {
+	font-size: 1.3em;
+}

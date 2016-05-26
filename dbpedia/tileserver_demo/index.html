@@ -1,0 +1,183 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta charset='UTF-8'/>
+	<title>Mapbox GL DBpedia</title>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+	<style>
+	html {
+		height: 100%;
+	}
+	body {
+		margin:0;
+		padding:0;
+		display: flex;
+		align-items: stretch;
+		height: 100%;
+		overflow: hidden;
+	}
+	#mapwrap {
+		position: relative;
+		order: 2;
+		flex: 1 100%;
+	}
+	#map {
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+	}
+	#box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -15px;
+		margin-left: -15px;
+		height: 30px;
+		width: 30px;
+		border: 3px solid #B60000;
+		border-radius: 50%;
+		background: transparent;
+		opacity: 0.6;
+		z-index: 500;
+		pointer-events: none;
+	}
+	#controls {
+		order: 1;
+		flex: 1 auto;
+		background: rgba(255, 255, 255, 0.9);
+		padding: 1em;
+		max-width: 23em;
+		overflow: scroll;
+	}
+	h1 {
+		margin: 0 0 1em;
+		font-size: 1.3em;
+	}
+	hr {
+		border: 0.5em solid black;
+		height: 0px;
+		width: 100%;
+		margin: 2em 0px;
+	}
+	#articles {
+		list-style: none;
+		margin: 1em 0;
+		padding: 0;
+	}
+	#articles li {
+		padding: 0.25em;
+	}
+	</style>
+</head>
+<body>
+<div id="controls">
+		<h1>DBpedia mapped</h1>
+		<p>Dataset: http://downloads.dbpedia.org/2015-10/core-i18n/en/geo_coordinates_en.tql.bz2</p>
+		<p>Downloaded from: <a href="http://wiki.dbpedia.org/Downloads2015-10">http://wiki.dbpedia.org/Downloads2015-10</a></p>
+		<p>This is a bulk extract from DBpedia of english (en) wikipedia articles with geographical coordinates.</p>
+		<p>Vector tiles created using Mapbox <a href="https://github.com/mapbox/tippecanoe">Tippecanoe</a>.
+		Basemap and place labels are from <a href="https://cartodb.com/attributions">CartoDB</a> basemap layers,
+		which use <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> open data.</p>
+		<form>
+			<label><input name="show_labels" type="checkbox" checked="checked"/>Show labels</label>
+		</form>
+		<hr>
+		<p>Move around the map to find articles:</p>
+		<ul id="articles"></ul>
+</div>
+<div id="mapwrap">
+	<div id='map'></div>
+	<div id="box"></div>
+</div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoidG9tYWxydXNzZWxsIiwiYSI6Im9TM1lfSWsifQ.0dE4yPsqc7HJbBT22ceU5g';
+var defaults = {
+  lat: 51.4987,
+  lng: -0.0618,
+  zoom: 10
+};
+var options = update_options_from_hash(defaults);
+var map = new mapboxgl.Map({
+	container: 'map',
+	center: [options.lng,options.lat],
+	zoom: options.zoom,
+	minZoom: 2,
+	maxZoom: 17,
+	style: 'dots.json'
+});
+map.on('zoomend', set_location_hash);
+map.on('moveend', set_location_hash);
+function toggleVisibility(){
+	var toggle = document.querySelector('[name="show_labels"]');
+	var visibility = (toggle.checked) ? 'visible':'none';
+	map.setLayoutProperty('labels', 'visibility', visibility);
+}
+map.on('load', function(){
+	var toggle = document.querySelector('[name="show_labels"]');
+	toggle.addEventListener('change',toggleVisibility);
+	toggleVisibility();
+	load_center();
+});
+
+map.on('zoomend', load_center);
+map.on('moveend', load_center);
+
+function test(e){
+	console.log(e.point);
+	var f = map.queryRenderedFeatures(e.point);
+	console.log(f);
+}
+function load_center(){
+	var w = map.getContainer().clientWidth;
+	var h = map.getContainer().clientHeight;
+	var buffer = document.getElementById('box').clientWidth / 2; // buffer box
+	var center = [[w/2 - buffer, h/2 - buffer], [w/2 + buffer, h/2 + buffer]];
+	var features = map.queryRenderedFeatures(center);
+	var list = document.getElementById('articles');
+	var max = 5;
+	list.innerHTML = "";
+	var base, url, text, li, a;
+	for (var i = 0; i < features.length; i++) {
+		base = features[i].properties.u;
+		text = decodeURI(base).replace(/_/g, " ");
+		li = document.createElement('li');
+		a = document.createElement('a');
+		a.setAttribute('href',"http://en.wikipedia.org/wiki/"+base);
+		a.setAttribute('target',"_blank");
+		a.innerHTML = text;
+		li.appendChild(a);
+		list.appendChild(li);
+		if (i >= max-1){
+			if(features.length - i - 1 > 0){
+				li = document.createElement('li');
+				li.innerHTML = "&hellip; and "+(features.length - i - 1)+" more.";
+				list.appendChild(li);
+			}
+			break;
+		}
+	}
+
+}
+
+function set_location_hash(){
+	var centre = map.getCenter();
+	window.location.hash = 'zoom=' + Math.floor(map.getZoom()) + '&lng=' + centre.lng.toFixed(6) + '&lat=' + centre.lat.toFixed(6);
+}
+
+function update_options_from_hash(options){
+	var hash = window.location.hash;
+	if (hash.length){
+		var elements = hash.substring(1).split('&');
+		for (var i = 0; i < elements.length; i++) {
+			var pair = elements[i].split('=');
+			options[pair[0]] = pair[1];
+		}
+	}
+	return options;
+}
+</script>
+</body>
+</html>

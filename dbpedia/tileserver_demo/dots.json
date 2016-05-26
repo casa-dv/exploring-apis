@@ -1,0 +1,60 @@
+{
+  "version": 8,
+  "sources": {
+    "dbpedia": {
+      "type": "vector",
+      "tiles": [
+        "http://localhost:7777/tiles/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    "cartodb_labels": {
+      "type": "raster",
+      "tiles": [
+          "http://a.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+          "http://b.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+          "http://c.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+          "http://d.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    },
+    "cartodb_base": {
+      "type": "raster",
+      "tiles": [
+          "http://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+          "http://b.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+          "http://c.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+          "http://d.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    }
+  },
+  "layers": [{
+    "id": "background",
+    "type": "background",
+    "paint": {
+      "background-color": "#ffffff"
+    }
+  }, {
+      "id": "base",
+      "type": "raster",
+      "source": "cartodb_base"
+  }, {
+    "id": "dbpedia",
+    "type": "circle",
+    "source": "dbpedia",
+    "source-layer": "geo_coordinates_all",
+    "paint": {
+        "circle-color": "#3182bd",
+        "circle-radius": {
+            "stops": [[4,2.0],[10,4.0],[14,4.0]]
+        },
+        "circle-opacity": 0.8
+    }
+  }, {
+      "id": "labels",
+      "type": "raster",
+      "source": "cartodb_labels"
+  }]
+}
