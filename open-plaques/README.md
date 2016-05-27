@@ -2,7 +2,7 @@
 
 Open Plaques collect Blue Plaques historical data - http://openplaques.org/about/data
 
-Here's a single plaque from their London CSV dump:
+Here's a single plaque from the London CSV dump:
 
 {
   "id": "121",
