@@ -3,7 +3,7 @@ var http = require('http');
 var app = express();
 var tilelive = require('tilelive');
 require('mbtiles').registerProtocols(tilelive);
-tilelive.load('mbtiles:///home/tom/data/dbpedia/geo_coordinates_all.mbtiles', function(err, tiles) {
+tilelive.load('mbtiles:///home/tom/node-dbpedia/geo_coordinates_all.mbtiles', function(err, tiles) {
 	if (err) {
 		throw err;
 	}app.set('port', 7777);
