@@ -1,0 +1,123 @@
+{
+  "geometry": {
+    "type": "Point", 
+    "coordinates": [
+      -0.1223308, 
+      51.5118629
+    ]
+  }, 
+  "type": "Feature", 
+  "properties": {
+    "website": "http://www.lepainquotidien.co.uk/store/covent-garden/#.VxYX83UrLlM", 
+    "rating": 3.8, 
+    "price": 3, 
+    "place_id": "ChIJQSYRkMsEdkgR1mIkXfGP5_0", 
+    "photos": [
+      "CoQBdwAAAFM2MzRUwtAkAgkfeO7vAO3DWG6RBIHFRpRe_uW_5NqqdgClaAxvXBNHpXDmSmOugNRxZUBLodhK7n-o_atTRXtA69ksTzgg6llEZ4e_EGrN2zXKMV8Xm7U9QsQEO-rRicUrkNFwdbySTgYmWAsfL2q5dSH2N-rXxjmIoAq0Wu8UEhANJX4aRzAqtp4AjEz3qB7GGhR43Zuo6etTuHR7VpMbBAPdsLLUXg", 
+      "CoQBcwAAAOsqYfvpwYSAKrhy3sqmx08JPmvHbsl3rryZsBMplPf6q0X8zTQAKTR131cB9aIwIq7V4QFZ7RfoW2CogQ4JEtRNDfHUrnQj5BgTGaYXS_ThYLu4EQb2Vap34YuBHUiDgH9IqiTwR07CmdaBn0HCgZelH9p72K6eGf6YMTUDA6xzEhB4694zG2MNSF5d5TjoznPYGhSU_7nq4ioHRvqmY9-b7fLSQivPWA", 
+      "CoQBcwAAAGjOLXlWMjhHiV9FJMRAtiWxoy7QbTnX2WVVVa4yChQ6GFOKjLc7k-bWLFejG080e0XIAyIqEXMebGpPEUlNx-cd4aORaS69P7xqbnidp9_lIXlHjzpk8bZuTOhGi4ArS9iW0nKgm9mBJLg9J8sJ5mwkbEbjwYPVL-SFopt85JjJEhCJ2FFWXQiIHK-c9g-iqBlbGhQNvWcCZbcPMFqFBnYsTk3FOFSCZA", 
+      "CoQBcwAAACI1EAVe4L0mU4chb0H0wobQ4att5errbVY0aIxFC8XFHF-EUE2lSHQX9X2tYYmztTpFW9NkthZMU47kPG1GxFh-BUq7CmMQbzqg2z7SZqwo6AWlCNOH-Q3wio-6pvKZuzIdEQ0OdX7JogOm1BT1EJ4REMT91HDfV-5DD_kScGb-EhCC4NxXnVvroaS2MNl8yjZ4GhSYttzy_62HWhFhGivNOXI6YQfjkA", 
+      "CoQBcwAAANPVDXcPBOkPjfkYpuNBQ4awwtm_voOwiNSP4Nh5UqhNZbpn5hYlovAf5AVgROJpznx3btqekWLEVjo0XGwKRjMrJGoFwIavs2R9XORM4-gVJ715L0-Io-eT11oJ_uzWmliK1J1I2sSMVY_n_eFDy2uQsT6vjNrZlIki5Oq6oIueEhAn6EFwMtXjqbL1JZh2ZWTyGhRFszW1h7BL7WfUqDuf4vlHgE4Csg", 
+      "CoQBdwAAANzENYhavS0g5lOKZ1cxe_kUtyL_JBSNkIsgykiJCJHSMEYJj5yV5LOKkwAmrRp5fbQD8ZAv-LzpzgS3l8Ht81xtl-c0-sVRVDjWgSVDKHJH93eYjB7rnqpgE2XBu8BqhxeDTQZms6ZNWxJjb4fDovpHPj95i29tc3BisaBK8oltEhCYpWYztLB83TwONJzkrgLsGhRIiZDtq5sICVpixn-6KL7yNhvVgA"
+    ], 
+    "formatted_address": "48-49, The Market, Covent Garden Piazza, Henrietta St, London WC2E 8RF, UK", 
+    "distance": "2", 
+    "name": "Le Pain Quotidien", 
+    "url": "https://maps.google.com/?cid=18295750278028485334", 
+    "opening_hours": [
+      {
+        "close": {
+          "day": 0, 
+          "time": "2100"
+        }, 
+        "open": {
+          "day": 0, 
+          "time": "0900"
+        }
+      }, 
+      {
+        "close": {
+          "day": 1, 
+          "time": "2200"
+        }, 
+        "open": {
+          "day": 1, 
+          "time": "0800"
+        }
+      }, 
+      {
+        "close": {
+          "day": 2, 
+          "time": "2200"
+        }, 
+        "open": {
+          "day": 2, 
+          "time": "0800"
+        }
+      }, 
+      {
+        "close": {
+          "day": 3, 
+          "time": "2200"
+        }, 
+        "open": {
+          "day": 3, 
+          "time": "0800"
+        }
+      }, 
+      {
+        "close": {
+          "day": 4, 
+          "time": "2200"
+        }, 
+        "open": {
+          "day": 4, 
+          "time": "0800"
+        }
+      }, 
+      {
+        "close": {
+          "day": 5, 
+          "time": "2300"
+        }, 
+        "open": {
+          "day": 5, 
+          "time": "0800"
+        }
+      }, 
+      {
+        "close": {
+          "day": 6, 
+          "time": "2300"
+        }, 
+        "open": {
+          "day": 6, 
+          "time": "0800"
+        }
+      }
+    ], 
+    "reviews": [
+      {
+        "text": "Swift service. Lovely to sit out even in January. The gluten free options were vast and tasty. You have to tolerate the pigeons. Recommended", 
+        "rating": 4
+      }, 
+      {
+        "text": "Great place for lunch or afternoon coffee, meet up place or to do a bit of work. Tons of space over multiple floors, rare in Covent Garden. Free Wi-Fi. ", 
+        "rating": 4
+      }, 
+      {
+        "text": "I often go here for  weekend breakfast. If you get there before 11am you will probably get a seat. After that and you will have to wait up to 15 minutes. ", 
+        "rating": 4
+      }, 
+      {
+        "text": "Delicious hot chocolate, nice food. They mixed up our order with the neighbors' but since we were crammed shoulder-to-shoulder we all realized right away. Great location. A bit tight tucked in to their space, but they are right in the center of things. Restroom is on the top floor.", 
+        "rating": 4
+      }, 
+      {
+        "text": "Ok place. Not sumth special. Capuccino was cold", 
+        "rating": 3
+      }
+    ], 
+    "formatted_phone_number": "020 3657 6928"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "rating": 3.8,
+  "reference": "CnRlAAAAWETcwSFZ5XMvKakS_Il36u7O1YeKvKWtEtSqdnKZ-y_4Ahjs0tDD9E9TXAK57Upoa3o2U9gL3ND95VFg2KuWw5k59X48DFfi-DCCJsA4mkVCzSD3gU4u9SOHOxa-MwD_PXo4uu2gRj2UWs0JpzuYXRIQk7n-hqKrbmAHnGmH5GaHkhoUd6cB5IIZBwDMsnECFCq50Pq7XCE",
+  "place_id": "ChIJQSYRkMsEdkgR1mIkXfGP5_0",
+  "url": "https://maps.google.com/?cid=18295750278028485334",
+  "formatted_address": "48-49, The Market, Covent Garden Piazza, Henrietta St, London WC2E 8RF, UK",
+  "id": "97241ccc6dea7c145e2ce8caea1aa7f850e1c8d0",
+  "opening_hours": {
+    "weekday_text": [
+      "Monday: 8:00 AM \u2013 10:00 PM",
+      "Tuesday: 8:00 AM \u2013 10:00 PM",
+      "Wednesday: 8:00 AM \u2013 10:00 PM",
+      "Thursday: 8:00 AM \u2013 10:00 PM",
+      "Friday: 8:00 AM \u2013 11:00 PM",
+      "Saturday: 8:00 AM \u2013 11:00 PM",
+      "Sunday: 9:00 AM \u2013 9:00 PM"
+    ],
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2100"
+        },
+        "open": {
+          "day": 0,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2200"
+        },
+        "open": {
+          "day": 1,
+          "time": "0800"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2200"
+        },
+        "open": {
+          "day": 2,
+          "time": "0800"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2200"
+        },
+        "open": {
+          "day": 3,
+          "time": "0800"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2200"
+        },
+        "open": {
+          "day": 4,
+          "time": "0800"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2300"
+        },
+        "open": {
+          "day": 5,
+          "time": "0800"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2300"
+        },
+        "open": {
+          "day": 6,
+          "time": "0800"
+        }
+      }
+    ]
+  },
+  "vicinity": "48-49, The Market, Covent Garden Piazza, Henrietta Street, London",
+  "scope": "GOOGLE",
+  "website": "http://www.lepainquotidien.co.uk/store/covent-garden/#.VxYX83UrLlM",
+  "utc_offset": 60,
+  "price": 4,
+  "photos": [
+    {
+      "photo_reference": "CoQBdwAAABLu2W6pFD6w_nFxr52yAmcmBriaJMEqKRHgWz70yMQ02BFO6K1Jm7fwwjeL50M7kTsHDtEi2ZINDKVj5c68EI_GNbVwWKQRMKUbgTy7nzCKyev5AIII813VVcqI1-3wdZWpa8nzCrt65NIhH5uf4pHr1DCo5mzEZ-ZXZyd6EBSmEhAdr1fqE_K2m_5aZMmVCLEFGhRFGrTUC8MTfWLfsvoULh9UKYr7BA",
+      "width": 1200,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116624530355147484858/photos\">49 Hokkai</a>"
+      ],
+      "height": 802
+    },
+    {
+      "photo_reference": "CoQBcwAAAFu0892ngfY81OX2yr-hiJUWbdwyHWk12YGd8pW-sSgJ4A6dMLJYcK388X6zegGz1zxxXHHFgd9glK7i25wGEPFtNlVJeEo91HlW7Y-O84wkHqqwMMIjF5T3M10UQZNYS9xH9d5iRP1PGcomWNwZbSOxDxAw7af6hjyqhDBFPt_7EhBsfumN9NtKA_u4IL5YWSOlGhSEI7jX8Yp-HmYJKrHDyEauigzazw",
+      "width": 653,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112352616160601092271/photos\">Wii Lu</a>"
+      ],
+      "height": 490
+    },
+    {
+      "photo_reference": "CoQBcwAAABlhTOYjc0Ptd7xJHpnS2TFhtXJeY4-uRG6wsY_hwaeC8M7x118nGLaWSF6xxBAEfcHHsJK8DEiKZe0VO-ZSh-WII3x9k2ifvwuDOVyMMsMqMOmOpWvzTvKtErazV025vTEzox3R-WkWWGcJUdbqm_DtXq2RWpYcSa0G5ihluW-XEhCrH5qEmKEwu23AdqDIXsc8GhRkTrfjq3Mhs-zVQa1xpNV0dMPvvQ",
+      "width": 2592,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102738333240991631000/photos\">Psudopod or AppleIPie</a>"
+      ],
+      "height": 1944
+    },
+    {
+      "photo_reference": "CoQBcwAAALRzGuGNwvLFWAk8yv2dH8BmisYO_qrDFfrR-6bX5DoRGOzCEoEmoasNvyTaZDmMidv7NrSdpvhMqWtEtM3ed7VPszcxuN2tVcDnMFMD-EXR1iWFWkfXYmJ68qUDx7HfzY8fuLeoGajRh1mu4Mj-XsYmvxHImHdt9zRjytdt7mtREhCmiFIdk6x236NPiQegW9X3GhTqMI9nQDT9rihjQ_Q9BnVO2eOa4Q",
+      "width": 515,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100025911857709247773/photos\">Le Pain Quotidien</a>"
+      ],
+      "height": 630
+    },
+    {
+      "photo_reference": "CoQBcwAAAH5ksHL5O0Y1CNphLW__ndZi24WKYhJdtCJc8cEaeTPtO9om40whWW6Uzveq2aMbqui2d8vs4LhrEJCoFuFbd0Z2_RU7ka1xsr-UWC-OuBrLKF6HkM-nDAchF-JP0khNWlv6QR5IbxJ2-hBBnvvfxvkJUjVOyI-A6GzM-gS9XJf2EhD6kuz-rnDtTo-Rb6zGQK65GhRU4-o7eBeL2OFCQJgVDhunKf6J6w",
+      "width": 1032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100868285881351018452/photos\">Rover g</a>"
+      ],
+      "height": 581
+    },
+    {
+      "photo_reference": "CoQBdwAAACnCZc4fwOSZvoKzSnyhR-5-DZhv4c2_raRZ1Pimf7MPQ9944Vzd_FJDTmFfpAevGISp-bSOGMlbRT6p0YiIwuESJQKiveEssz3BufyBhTLe3aofni3jH-XOoPPkJC7TYfolp5xi1S1oLjJSh7gCACVps5nY34QE-NZNIwOo9oaQEhCvTkRhcU2I9LiqDjXFTBGmGhTTSPaifSS01RPdjyy9dr9zEPNGeA",
+      "width": 3840,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103105123622114096836/photos\">Saskia Ashton</a>"
+      ],
+      "height": 2160
+    }
+  ],
+  "types": [
+    "bakery",
+    "store",
+    "cafe",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+  "name": "Le Pain Quotidien",
+  "geometry": {
+    "location": {
+      "lat": 51.5118629,
+      "lng": -0.1223308
+    }
+  },
+  "adr_address": "48-49, The Market, Covent Garden Piazza, <span class=\"street-address\">Henrietta St</span>, <span class=\"locality\">London</span> <span class=\"postal-code\">WC2E 8RF</span>, <span class=\"country-name\">UK</span>",
+  "international_phone_number": "+44 20 3657 6928",
+  "reviews": [
+    {
+      "rating": 4,
+      "aspects": [
+        {
+          "rating": 2,
+          "type": "overall"
+        }
+      ],
+      "profile_photo_url": "//lh5.googleusercontent.com/-pow_y0J7Egk/AAAAAAAAAAI/AAAAAAAAAUs/Hh8jLdot2Tc/photo.jpg",
+      "language": "en",
+      "text": "Swift service. Lovely to sit out even in January. The gluten free options were vast and tasty. You have to tolerate the pigeons. Recommended",
+      "author_name": "Kieran Healey",
+      "author_url": "https://plus.google.com/107898413248619607296",
+      "time": 1452367120
+    },
+    {
+      "rating": 4,
+      "aspects": [
+        {
+          "rating": 2,
+          "type": "overall"
+        }
+      ],
+      "profile_photo_url": "//lh6.googleusercontent.com/-759XJ95BOLY/AAAAAAAAAAI/AAAAAAAAAAA/z12BahLvaM4/photo.jpg",
+      "language": "en",
+      "text": "Great place for lunch or afternoon coffee, meet up place or to do a bit of work. Tons of space over multiple floors, rare in Covent Garden. Free Wi-Fi. ",
+      "author_name": "Arthur Leung",
+      "author_url": "https://plus.google.com/112489534328236515594",
+      "time": 1459595271
+    },
+    {
+      "rating": 4,
+      "aspects": [
+        {
+          "rating": 2,
+          "type": "overall"
+        }
+      ],
+      "profile_photo_url": "//lh4.googleusercontent.com/-vXLqEzci9qk/AAAAAAAAAAI/AAAAAAABMtY/ZccOfKzWJmk/photo.jpg",
+      "language": "en",
+      "text": "I often go here for  weekend breakfast. If you get there before 11am you will probably get a seat. After that and you will have to wait up to 15 minutes. ",
+      "author_name": "Robert Sutcliffe",
+      "author_url": "https://plus.google.com/111837606530117407473",
+      "time": 1455612797
+    },
+    {
+      "rating": 4,
+      "aspects": [
+        {
+          "rating": 2,
+          "type": "overall"
+        }
+      ],
+      "profile_photo_url": "//lh3.googleusercontent.com/-2typ_df4DsM/AAAAAAAAAAI/AAAAAAAAAik/Ox6m51syhss/photo.jpg",
+      "language": "en",
+      "text": "Delicious hot chocolate, nice food. They mixed up our order with the neighbors' but since we were crammed shoulder-to-shoulder we all realized right away. Great location. A bit tight tucked in to their space, but they are right in the center of things. Restroom is on the top floor.",
+      "author_name": "Psudopod or AppleIPie",
+      "author_url": "https://plus.google.com/102738333240991631000",
+      "time": 1453693096
+    },
+    {
+      "rating": 3,
+      "aspects": [
+        {
+          "rating": 1,
+          "type": "overall"
+        }
+      ],
+      "profile_photo_url": "//lh6.googleusercontent.com/-vbgRRLnwMGA/AAAAAAAAAAI/AAAAAAAAEMw/yS8Vg2FOEwk/photo.jpg",
+      "language": "en",
+      "text": "Ok place. Not sumth special. Capuccino was cold",
+      "author_name": "Nestoras L.",
+      "author_url": "https://plus.google.com/109370650391650792379",
+      "time": 1448800603
+    }
+  ],
+  "formatted_phone_number": "020 3657 6928",
+  "address_components": [
+    {
+      "long_name": "48-49",
+      "types": [
+        "subpremise"
+      ],
+      "short_name": "48-49"
+    },
+    {
+      "long_name": "The Market",
+      "types": [
+        "premise"
+      ],
+      "short_name": "The Market"
+    },
+    {
+      "long_name": "Covent Garden Piazza",
+      "types": [
+        "premise"
+      ],
+      "short_name": "Covent Garden Piazza"
+    },
+    {
+      "long_name": "Henrietta Street",
+      "types": [
+        "route"
+      ],
+      "short_name": "Henrietta St"
+    },
+    {
+      "long_name": "London",
+      "types": [
+        "locality",
+        "political"
+      ],
+      "short_name": "London"
+    },
+    {
+      "long_name": "London",
+      "types": [
+        "postal_town"
+      ],
+      "short_name": "London"
+    },
+    {
+      "long_name": "Greater London",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ],
+      "short_name": "Greater London"
+    },
+    {
+      "long_name": "United Kingdom",
+      "types": [
+        "country",
+        "political"
+      ],
+      "short_name": "GB"
+    },
+    {
+      "long_name": "WC2E 8RF",
+      "types": [
+        "postal_code"
+      ],
+      "short_name": "WC2E 8RF"
+    }
+  ]
+}
