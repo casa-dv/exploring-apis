@@ -74,8 +74,9 @@ def get_distance(orig_lat,orig_lon,dest_lat,dest_lon):
 	return distance
 
 
-if __name__ == "__main__":
+def get_places(lat,lon,place_type):
 	ids = get_nearby_places(lat,lon,place_type)
+	places = []
 	for place_id in ids:
 		place = get_place_details(place_id)
 
@@ -83,6 +84,6 @@ if __name__ == "__main__":
 		place_lat = place["geometry"]["coordinates"][1]
 		distance = get_distance(lat,lon,place_lat,place_lon)
 		place["properties"]["distance"] = distance
+		places.append(place)
 
-		print json.dumps(place,indent=2)
-		break
+	return places
