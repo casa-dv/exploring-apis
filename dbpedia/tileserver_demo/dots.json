@@ -4,7 +4,7 @@
     "dbpedia": {
       "type": "vector",
       "tiles": [
-        "http://localhost:7777/tiles/{z}/{x}/{y}.pbf"
+        "http://casa-dv.made-by-tom.co.uk/wikipedia_map/tiles/{z}/{x}/{y}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 14

@@ -6,9 +6,9 @@ require('mbtiles').registerProtocols(tilelive);
 tilelive.load('mbtiles:///home/tom/node-dbpedia/geo_coordinates_all.mbtiles', function(err, tiles) {
 	if (err) {
 		throw err;
-	}app.set('port', 7777);
+	}app.set('port', 8090);
 
-	app.get(/^\/tiles\/(\d+)\/(\d+)\/(\d+).pbf$/, function(req, res){
+	app.get(/tiles\/(\d+)\/(\d+)\/(\d+).pbf$/, function(req, res){
 		var z = req.params[0];
 		var x = req.params[1];
 		var y = req.params[2];

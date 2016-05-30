@@ -106,7 +106,7 @@ var map = new mapboxgl.Map({
 	zoom: options.zoom,
 	minZoom: 2,
 	maxZoom: 17,
-	style: 'dots.json'
+	style: '/wikipedia_map/dots.json'
 });
 map.on('zoomend', set_location_hash);
 map.on('moveend', set_location_hash);
