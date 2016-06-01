@@ -17,7 +17,7 @@ $.getJSON(
     '&lat=', lat,
     '&lon=', lon,
     '&extras=geo,url_t,url_m,url_sq',
-    '&radius=0.2',
+    '&radius=0.3',
     '&per_page=20',
     '&jsoncallback=?'
   ].join(""), function(data){
