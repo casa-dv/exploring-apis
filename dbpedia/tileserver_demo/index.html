@@ -37,10 +37,10 @@
 		margin-left: -15px;
 		height: 30px;
 		width: 30px;
-		border: 3px solid #B60000;
+		border: 4px solid #f54337;
 		border-radius: 50%;
 		background: transparent;
-		opacity: 0.6;
+		opacity: 0.9;
 		z-index: 500;
 		pointer-events: none;
 	}
@@ -50,7 +50,7 @@
 		background: rgba(255, 255, 255, 0.9);
 		padding: 1em;
 		max-width: 23em;
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 	h1 {
 		margin: 0 0 1em;
@@ -74,7 +74,10 @@
 </head>
 <body>
 <div id="controls">
-		<h1>DBpedia mapped</h1>
+		<h1>Local Encyclopedia</h1>
+		<p>Move around the map to find English Wikipedia articles:</p>
+		<ul id="articles"></ul>
+		<hr>
 		<p>Dataset: http://downloads.dbpedia.org/2015-10/core-i18n/en/geo_coordinates_en.tql.bz2</p>
 		<p>Downloaded from: <a href="http://wiki.dbpedia.org/Downloads2015-10">http://wiki.dbpedia.org/Downloads2015-10</a></p>
 		<p>This is a bulk extract from DBpedia of english (en) wikipedia articles with geographical coordinates.</p>
@@ -84,9 +87,6 @@
 		<form>
 			<label><input name="show_labels" type="checkbox" checked="checked"/>Show labels</label>
 		</form>
-		<hr>
-		<p>Move around the map to find articles:</p>
-		<ul id="articles"></ul>
 </div>
 <div id="mapwrap">
 	<div id='map'></div>
